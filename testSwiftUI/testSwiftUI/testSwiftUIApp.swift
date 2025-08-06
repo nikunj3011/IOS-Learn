@@ -11,7 +11,7 @@ import SwiftUI
 struct testSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            SlideDrawerView()
+            LandingPageView()
         }
     }
 }
