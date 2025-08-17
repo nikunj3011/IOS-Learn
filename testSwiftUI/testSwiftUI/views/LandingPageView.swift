@@ -217,67 +217,25 @@ struct MessagesView: View {
         .background(Color(.systemBackground))
     }
 }
-
 struct SlideDrawerView: View {
-    @State private var offset: CGFloat = 0
+    @State private var selectedTab: Int = 0
     @State private var isChatActive: Bool = false
     @State private var chatInput: String = ""
     
     let screenWidth = UIScreen.main.bounds.width
+    let tabs = ["All", "Watchlist", "New", "Gainers", "Losers"]
     
     var body: some View {
-        ZStack(alignment: .trailing) {
-            MainPageView(isChatActive: $isChatActive, chatInput: $chatInput)
-                .frame(width: screenWidth)
-                .offset(x: offset)
-                .blur(radius: blurAmount(for: offset))
-            
-            CompanionPanelView(isChatActive: $isChatActive, chatInput: $chatInput)
-                .frame(width: screenWidth)
-                .offset(x: -screenWidth + offset)
-        }
-        .gesture(
-            DragGesture()
-                .onChanged { value in
-                    let newOffset = offset + value.translation.width
-                    offset = min(max(newOffset, 0), screenWidth)
-                }
-                .onEnded { value in
-                    let predictedOffset = offset + value.translation.width
-                    let threshold = screenWidth / 3
-                    withAnimation(.easeInOut(duration: 0.6)) {
-                        if predictedOffset > threshold {
-                            offset = screenWidth
-                        } else {
-                            offset = 0
-                        }
-                    }
-                }
-        )
-        .edgesIgnoringSafeArea(.all)
-    }
-    
-    private func blurAmount(for offset: CGFloat) -> CGFloat {
-        let progress = min(max(offset / screenWidth, 0), 1)
-        return progress * 8
-    }
-}
-
-struct MainPageView: View {
-    @Binding var isChatActive: Bool
-    @Binding var chatInput: String
-    
-    var body: some View {
-        VStack(spacing: 0) {
+        VStack(spacing: 15) {
             // Header with Search and Status
             HStack {
-                Text("12:06") // Simulated time
-                    .foregroundColor(.gray)
-                Spacer()
-                Image(systemName: "battery.75")
-                Image(systemName: "wifi")
-                Text("5G")
-                    .foregroundColor(.gray)
+//                Text("12:06") // Simulated time
+//                    .foregroundColor(.gray)
+//                Spacer()
+//                Image(systemName: "battery.75")
+//                Image(systemName: "wifi")
+//                Text("5G")
+//                    .foregroundColor(.gray)
             }
             .padding()
             
@@ -289,65 +247,92 @@ struct MainPageView: View {
                 .cornerRadius(10)
                 .padding(.horizontal)
             
-            // Filter Tabs
+            // Filter Tabs (Visible and Tappable)
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 10) {
-                    FilterTab(title: "All", isSelected: true)
-                    FilterTab(title: "Watchlist", isSelected: false)
-                    FilterTab(title: "New", isSelected: false)
-                    FilterTab(title: "Gainers", isSelected: false)
-                    FilterTab(title: "Losers", isSelected: false)
+                    ForEach(tabs.indices, id: \.self) { index in
+                        Button(action: {
+                            withAnimation(.easeInOut(duration: 0.6)) {
+                                selectedTab = index
+                            }
+                        }) {
+                            Text(tabs[index])
+                                .padding(.horizontal, 15)
+                                .padding(.vertical, 8)
+                                .background(selectedTab == index ? Color.blue : Color.gray.opacity(0.2))
+                                .foregroundColor(.white)
+                                .cornerRadius(15)
+                        }
+                    }
                 }
                 .padding(.horizontal)
             }
             
-            // Crypto List
+            // Crypto List (Content based on selected tab)
             List {
-                CryptoRow(symbol: "BTC-USDC", price: "$113,493.65", volume: "Vol 553.71M", change: "-0.96%")
-                CryptoRow(symbol: "ETH-USDC", price: "$3,583.14", volume: "Vol 413.81M", change: "-2.42%")
-                CryptoRow(symbol: "XRP-USDC", price: "$2.9224", volume: "Vol 206.32M", change: "-4.24%")
-                CryptoRow(symbol: "SOL-USDC", price: "$162.18", volume: "Vol 102.94M", change: "-3.94%")
-                CryptoRow(symbol: "HBAR-USDC", price: "$0.2435", volume: "Vol 48.8M", change: "-2.4%")
-                CryptoRow(symbol: "SUI-USDC", price: "$3.3660", volume: "Vol 40.7M", change: "-4.99%")
-                CryptoRow(symbol: "DOGE-USDC", price: "$0.19707", volume: "Vol 38.58M", change: "-5.24%")
-                CryptoRow(symbol: "LTC-USDC", price: "$118.32", volume: "Vol 38.52M", change: "-2.90%")
-                CryptoRow(symbol: "BONK-USDC", price: "$0.00002356", volume: "Vol 34.47M", change: "-9.52%")
+                if tabs[selectedTab] == "All" || tabs[selectedTab] == "Watchlist" {
+                    CryptoRow(symbol: "BTC-USDC", price: "$113,493.65", volume: "Vol 553.71M", change: "-0.96%")
+                    CryptoRow(symbol: "ETH-USDC", price: "$3,583.14", volume: "Vol 413.81M", change: "-2.42%")
+                }
+                if tabs[selectedTab] == "New" {
+                    CryptoRow(symbol: "SUI-USDC", price: "$3.3660", volume: "Vol 40.7M", change: "-4.99%")
+                    CryptoRow(symbol: "BONK-USDC", price: "$0.00002356", volume: "Vol 34.47M", change: "-9.52%")
+                }
+                if tabs[selectedTab] == "Gainers" {
+                    CryptoRow(symbol: "BTC-USDC", price: "$113,493.65", volume: "Vol 553.71M", change: "+1.96%")
+                }
+                if tabs[selectedTab] == "Losers" {
+                    CryptoRow(symbol: "ETH-USDC", price: "$3,583.14", volume: "Vol 413.81M", change: "-2.42%")
+                }
             }
             .listStyle(PlainListStyle())
             .background(Color.black)
             
-            // Bottom Navigation
-            HStack(spacing: 30) {
-                Image(systemName: "waveform")
-                    .foregroundColor(.white)
-                Image(systemName: "arrow.up.arrow.down")
-                    .foregroundColor(.white)
-                Image(systemName: "chart.bar")
-                    .foregroundColor(.white)
-                Image(systemName: "briefcase")
-                    .foregroundColor(.white)
-                Image(systemName: "list.dash")
-                    .foregroundColor(.white)
-            }
-            .padding()
-            .background(Color.gray.opacity(0.3))
+//            // Bottom Navigation
+//            HStack(spacing: 30) {
+//                Image(systemName: "waveform")
+//                    .foregroundColor(.white)
+//                Image(systemName: "arrow.up.arrow.down")
+//                    .foregroundColor(.white)
+//                Image(systemName: "chart.bar")
+//                    .foregroundColor(.white)
+//                Image(systemName: "briefcase")
+//                    .foregroundColor(.white)
+//                Image(systemName: "list.dash")
+//                    .foregroundColor(.white)
+//            }
+//            .padding()
+//            .background(Color.gray.opacity(0.3))
         }
         .background(Color.black)
         .foregroundColor(.white)
+        .gesture(
+            DragGesture()
+                .onEnded { value in
+                    let threshold = screenWidth / 3
+                    withAnimation(.easeInOut(duration: 0.6)) {
+                        if value.translation.width < -threshold {
+                            // Swipe left: move to next tab
+                            selectedTab = (selectedTab + 1) % tabs.count
+                        } else if value.translation.width > threshold {
+                            // Swipe right: move to previous tab
+                            selectedTab = (selectedTab - 1 + tabs.count) % tabs.count
+                        }
+                    }
+                }
+        )
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
-struct FilterTab: View {
-    let title: String
-    let isSelected: Bool
+struct MainPageView: View {
+    @Binding var isChatActive: Bool
+    @Binding var chatInput: String
+    let currentTab: String
     
     var body: some View {
-        Text(title)
-            .padding(.horizontal, 15)
-            .padding(.vertical, 8)
-            .background(isSelected ? Color.blue : Color.gray.opacity(0.2))
-            .foregroundColor(isSelected ? .white : .white)
-            .cornerRadius(15)
+        // This view is now part of the SlideDrawerView's tab logic
+        EmptyView() // No longer used independently, handled by SlideDrawerView
     }
 }
 
@@ -361,12 +346,7 @@ struct CryptoRow: View {
         HStack {
             Image(systemName: symbol.contains("BTC") ? "bitcoinsign.circle.fill" :
                   symbol.contains("ETH") ? "circle.fill" :
-                  symbol.contains("XRP") ? "xmark.circle.fill" :
-                  symbol.contains("SOL") ? "leaf.fill" :
-                  symbol.contains("HBAR") ? "h.circle.fill" :
                   symbol.contains("SUI") ? "suit.heart.fill" :
-                  symbol.contains("DOGE") ? "dog.circle.fill" :
-                  symbol.contains("LTC") ? "l.circle.fill" :
                   symbol.contains("BONK") ? "pawprint.fill" : "circle.fill")
                 .foregroundColor(.blue)
                 .frame(width: 30)
@@ -395,6 +375,20 @@ struct CryptoRow: View {
             }
         }
         .padding(.vertical, 5)
+    }
+}
+
+struct FilterTab: View {
+    let title: String
+    let isSelected: Bool
+    
+    var body: some View {
+        Text(title)
+            .padding(.horizontal, 15)
+            .padding(.vertical, 8)
+            .background(isSelected ? Color.blue : Color.gray.opacity(0.2))
+            .foregroundColor(isSelected ? .white : .white)
+            .cornerRadius(15)
     }
 }
 
