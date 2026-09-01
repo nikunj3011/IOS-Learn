@@ -6,96 +6,63 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		E22FE0512E5ACFCB00D08BA8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E22FE0502E5ACFCB00D08BA8 /* RealmSwift */; };
-		E240E28B2E5AD8DB00926E75 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = E22FE0502E5ACFCB00D08BA8 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		E2C779BB2E26CD9700B1AC6B /* PBXContainerItemProxy */ = {
+		E2BE3C6F302F745500E8008D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E2C779A52E26CD9500B1AC6B /* Project object */;
+			containerPortal = E2BE3C59302F745200E8008D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E2C779AC2E26CD9500B1AC6B;
-			remoteInfo = testSwiftUI;
+			remoteGlobalIDString = E2BE3C60302F745200E8008D;
+			remoteInfo = LocalMind;
 		};
-		E2C779C52E26CD9700B1AC6B /* PBXContainerItemProxy */ = {
+		E2BE3C79302F745500E8008D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E2C779A52E26CD9500B1AC6B /* Project object */;
+			containerPortal = E2BE3C59302F745200E8008D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E2C779AC2E26CD9500B1AC6B;
-			remoteInfo = testSwiftUI;
+			remoteGlobalIDString = E2BE3C60302F745200E8008D;
+			remoteInfo = LocalMind;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		E240E28C2E5AD8DB00926E75 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E240E28B2E5AD8DB00926E75 /* RealmSwift in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		E2C779AD2E26CD9500B1AC6B /* testSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2C779BA2E26CD9700B1AC6B /* testSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2C779C42E26CD9700B1AC6B /* testSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BE3C61302F745200E8008D /* LocalMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BE3C6E302F745500E8008D /* LocalMindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BE3C78302F745500E8008D /* LocalMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E2C77A0A2E26CFB600B1AC6B /* Exceptions for "testSwiftUI" folder in "testSwiftUI" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = E2C779AC2E26CD9500B1AC6B /* testSwiftUI */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E2C779AF2E26CD9500B1AC6B /* testSwiftUI */ = {
+		E2BE3C63302F745200E8008D /* LocalMind */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				E2C77A0A2E26CFB600B1AC6B /* Exceptions for "testSwiftUI" folder in "testSwiftUI" target */,
-			);
-			path = testSwiftUI;
+			path = LocalMind;
 			sourceTree = "<group>";
 		};
-		E2C779BD2E26CD9700B1AC6B /* testSwiftUITests */ = {
+		E2BE3C71302F745500E8008D /* LocalMindTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = testSwiftUITests;
+			path = LocalMindTests;
 			sourceTree = "<group>";
 		};
-		E2C779C72E26CD9700B1AC6B /* testSwiftUIUITests */ = {
+		E2BE3C7B302F745500E8008D /* LocalMindUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = testSwiftUIUITests;
+			path = LocalMindUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E2C779AA2E26CD9500B1AC6B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E22FE0512E5ACFCB00D08BA8 /* RealmSwift in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2C779B72E26CD9700B1AC6B /* Frameworks */ = {
+		E2BE3C5E302F745200E8008D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C779C12E26CD9700B1AC6B /* Frameworks */ = {
+		E2BE3C6B302F745500E8008D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BE3C75302F745500E8008D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -105,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E2C779A42E26CD9500B1AC6B = {
+		E2BE3C58302F745200E8008D = {
 			isa = PBXGroup;
 			children = (
-				E2C779AF2E26CD9500B1AC6B /* testSwiftUI */,
-				E2C779BD2E26CD9700B1AC6B /* testSwiftUITests */,
-				E2C779C72E26CD9700B1AC6B /* testSwiftUIUITests */,
-				E2C779AE2E26CD9500B1AC6B /* Products */,
+				E2BE3C63302F745200E8008D /* LocalMind */,
+				E2BE3C71302F745500E8008D /* LocalMindTests */,
+				E2BE3C7B302F745500E8008D /* LocalMindUITests */,
+				E2BE3C62302F745200E8008D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E2C779AE2E26CD9500B1AC6B /* Products */ = {
+		E2BE3C62302F745200E8008D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2C779AD2E26CD9500B1AC6B /* testSwiftUI.app */,
-				E2C779BA2E26CD9700B1AC6B /* testSwiftUITests.xctest */,
-				E2C779C42E26CD9700B1AC6B /* testSwiftUIUITests.xctest */,
+				E2BE3C61302F745200E8008D /* LocalMind.app */,
+				E2BE3C6E302F745500E8008D /* LocalMindTests.xctest */,
+				E2BE3C78302F745500E8008D /* LocalMindUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,139 +95,135 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2C779AC2E26CD9500B1AC6B /* testSwiftUI */ = {
+		E2BE3C60302F745200E8008D /* LocalMind */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2C779CE2E26CD9700B1AC6B /* Build configuration list for PBXNativeTarget "testSwiftUI" */;
+			buildConfigurationList = E2BE3C82302F745500E8008D /* Build configuration list for PBXNativeTarget "LocalMind" */;
 			buildPhases = (
-				E2C779A92E26CD9500B1AC6B /* Sources */,
-				E2C779AA2E26CD9500B1AC6B /* Frameworks */,
-				E2C779AB2E26CD9500B1AC6B /* Resources */,
-				E240E28C2E5AD8DB00926E75 /* Embed Frameworks */,
+				E2BE3C5D302F745200E8008D /* Sources */,
+				E2BE3C5E302F745200E8008D /* Frameworks */,
+				E2BE3C5F302F745200E8008D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E2C779AF2E26CD9500B1AC6B /* testSwiftUI */,
+				E2BE3C63302F745200E8008D /* LocalMind */,
 			);
-			name = testSwiftUI;
+			name = LocalMind;
 			packageProductDependencies = (
-				E22FE0502E5ACFCB00D08BA8 /* RealmSwift */,
 			);
-			productName = testSwiftUI;
-			productReference = E2C779AD2E26CD9500B1AC6B /* testSwiftUI.app */;
+			productName = LocalMind;
+			productReference = E2BE3C61302F745200E8008D /* LocalMind.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E2C779B92E26CD9700B1AC6B /* testSwiftUITests */ = {
+		E2BE3C6D302F745500E8008D /* LocalMindTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2C779D12E26CD9700B1AC6B /* Build configuration list for PBXNativeTarget "testSwiftUITests" */;
+			buildConfigurationList = E2BE3C85302F745500E8008D /* Build configuration list for PBXNativeTarget "LocalMindTests" */;
 			buildPhases = (
-				E2C779B62E26CD9700B1AC6B /* Sources */,
-				E2C779B72E26CD9700B1AC6B /* Frameworks */,
-				E2C779B82E26CD9700B1AC6B /* Resources */,
+				E2BE3C6A302F745500E8008D /* Sources */,
+				E2BE3C6B302F745500E8008D /* Frameworks */,
+				E2BE3C6C302F745500E8008D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E2C779BC2E26CD9700B1AC6B /* PBXTargetDependency */,
+				E2BE3C70302F745500E8008D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E2C779BD2E26CD9700B1AC6B /* testSwiftUITests */,
+				E2BE3C71302F745500E8008D /* LocalMindTests */,
 			);
-			name = testSwiftUITests;
+			name = LocalMindTests;
 			packageProductDependencies = (
 			);
-			productName = testSwiftUITests;
-			productReference = E2C779BA2E26CD9700B1AC6B /* testSwiftUITests.xctest */;
+			productName = LocalMindTests;
+			productReference = E2BE3C6E302F745500E8008D /* LocalMindTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E2C779C32E26CD9700B1AC6B /* testSwiftUIUITests */ = {
+		E2BE3C77302F745500E8008D /* LocalMindUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2C779D42E26CD9700B1AC6B /* Build configuration list for PBXNativeTarget "testSwiftUIUITests" */;
+			buildConfigurationList = E2BE3C88302F745500E8008D /* Build configuration list for PBXNativeTarget "LocalMindUITests" */;
 			buildPhases = (
-				E2C779C02E26CD9700B1AC6B /* Sources */,
-				E2C779C12E26CD9700B1AC6B /* Frameworks */,
-				E2C779C22E26CD9700B1AC6B /* Resources */,
+				E2BE3C74302F745500E8008D /* Sources */,
+				E2BE3C75302F745500E8008D /* Frameworks */,
+				E2BE3C76302F745500E8008D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E2C779C62E26CD9700B1AC6B /* PBXTargetDependency */,
+				E2BE3C7A302F745500E8008D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E2C779C72E26CD9700B1AC6B /* testSwiftUIUITests */,
+				E2BE3C7B302F745500E8008D /* LocalMindUITests */,
 			);
-			name = testSwiftUIUITests;
+			name = LocalMindUITests;
 			packageProductDependencies = (
 			);
-			productName = testSwiftUIUITests;
-			productReference = E2C779C42E26CD9700B1AC6B /* testSwiftUIUITests.xctest */;
+			productName = LocalMindUITests;
+			productReference = E2BE3C78302F745500E8008D /* LocalMindUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E2C779A52E26CD9500B1AC6B /* Project object */ = {
+		E2BE3C59302F745200E8008D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					E2C779AC2E26CD9500B1AC6B = {
-						CreatedOnToolsVersion = 16.3;
+					E2BE3C60302F745200E8008D = {
+						CreatedOnToolsVersion = 26.0.1;
 					};
-					E2C779B92E26CD9700B1AC6B = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = E2C779AC2E26CD9500B1AC6B;
+					E2BE3C6D302F745500E8008D = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = E2BE3C60302F745200E8008D;
 					};
-					E2C779C32E26CD9700B1AC6B = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = E2C779AC2E26CD9500B1AC6B;
+					E2BE3C77302F745500E8008D = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = E2BE3C60302F745200E8008D;
 					};
 				};
 			};
-			buildConfigurationList = E2C779A82E26CD9500B1AC6B /* Build configuration list for PBXProject "testSwiftUI" */;
+			buildConfigurationList = E2BE3C5C302F745200E8008D /* Build configuration list for PBXProject "LocalMind" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = E2C779A42E26CD9500B1AC6B;
+			mainGroup = E2BE3C58302F745200E8008D;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				E292E9CC2E56D5050060AC7F /* XCRemoteSwiftPackageReference "realm-swift" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E2C779AE2E26CD9500B1AC6B /* Products */;
+			productRefGroup = E2BE3C62302F745200E8008D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2C779AC2E26CD9500B1AC6B /* testSwiftUI */,
-				E2C779B92E26CD9700B1AC6B /* testSwiftUITests */,
-				E2C779C32E26CD9700B1AC6B /* testSwiftUIUITests */,
+				E2BE3C60302F745200E8008D /* LocalMind */,
+				E2BE3C6D302F745500E8008D /* LocalMindTests */,
+				E2BE3C77302F745500E8008D /* LocalMindUITests */,
 			);
 		};
 /* End PBXProject section */
 
+
 /* Begin PBXResourcesBuildPhase section */
-		E2C779AB2E26CD9500B1AC6B /* Resources */ = {
+		E2BE3C5F302F745200E8008D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C779B82E26CD9700B1AC6B /* Resources */ = {
+		E2BE3C6C302F745500E8008D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C779C22E26CD9700B1AC6B /* Resources */ = {
+		E2BE3C76302F745500E8008D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,21 +233,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E2C779A92E26CD9500B1AC6B /* Sources */ = {
+		E2BE3C5D302F745200E8008D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C779B62E26CD9700B1AC6B /* Sources */ = {
+		E2BE3C6A302F745500E8008D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C779C02E26CD9700B1AC6B /* Sources */ = {
+		E2BE3C74302F745500E8008D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,20 +257,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E2C779BC2E26CD9700B1AC6B /* PBXTargetDependency */ = {
+		E2BE3C70302F745500E8008D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E2C779AC2E26CD9500B1AC6B /* testSwiftUI */;
-			targetProxy = E2C779BB2E26CD9700B1AC6B /* PBXContainerItemProxy */;
+			target = E2BE3C60302F745200E8008D /* LocalMind */;
+			targetProxy = E2BE3C6F302F745500E8008D /* PBXContainerItemProxy */;
 		};
-		E2C779C62E26CD9700B1AC6B /* PBXTargetDependency */ = {
+		E2BE3C7A302F745500E8008D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E2C779AC2E26CD9500B1AC6B /* testSwiftUI */;
-			targetProxy = E2C779C52E26CD9700B1AC6B /* PBXContainerItemProxy */;
+			target = E2BE3C60302F745200E8008D /* LocalMind */;
+			targetProxy = E2BE3C79302F745500E8008D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		E2C779CC2E26CD9700B1AC6B /* Debug */ = {
+		E2BE3C80302F745500E8008D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -360,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -371,7 +334,7 @@
 			};
 			name = Debug;
 		};
-		E2C779CD2E26CD9700B1AC6B /* Release */ = {
+		E2BE3C81302F745500E8008D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -428,7 +391,7 @@
 			};
 			name = Release;
 		};
-		E2C779CF2E26CD9700B1AC6B /* Debug */ = {
+		E2BE3C83302F745500E8008D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -437,11 +400,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testSwiftUI/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth in use";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is used";
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "LocalMind connects to your local AI runtime on your network.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,15 +413,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikunj.testSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evolveddna.LocalMind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E2C779D02E26CD9700B1AC6B /* Release */ = {
+		E2BE3C84302F745500E8008D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -469,11 +434,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testSwiftUI/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth in use";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is used";
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "LocalMind connects to your local AI runtime on your network.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -484,15 +447,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikunj.testSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evolveddna.LocalMind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		E2C779D22E26CD9700B1AC6B /* Debug */ = {
+		E2BE3C86302F745500E8008D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,18 +467,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikunj.testSwiftUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evolveddna.LocalMindTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalMind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocalMind";
 			};
 			name = Debug;
 		};
-		E2C779D32E26CD9700B1AC6B /* Release */ = {
+		E2BE3C87302F745500E8008D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,18 +489,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikunj.testSwiftUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evolveddna.LocalMindTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalMind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocalMind";
 			};
 			name = Release;
 		};
-		E2C779D52E26CD9700B1AC6B /* Debug */ = {
+		E2BE3C89302F745500E8008D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -538,16 +511,19 @@
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikunj.testSwiftUIUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evolveddna.LocalMindUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = testSwiftUI;
+				TEST_TARGET_NAME = LocalMind;
 			};
 			name = Debug;
 		};
-		E2C779D62E26CD9700B1AC6B /* Release */ = {
+		E2BE3C8A302F745500E8008D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -555,74 +531,58 @@
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikunj.testSwiftUIUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evolveddna.LocalMindUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = testSwiftUI;
+				TEST_TARGET_NAME = LocalMind;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2C779A82E26CD9500B1AC6B /* Build configuration list for PBXProject "testSwiftUI" */ = {
+		E2BE3C5C302F745200E8008D /* Build configuration list for PBXProject "LocalMind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2C779CC2E26CD9700B1AC6B /* Debug */,
-				E2C779CD2E26CD9700B1AC6B /* Release */,
+				E2BE3C80302F745500E8008D /* Debug */,
+				E2BE3C81302F745500E8008D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2C779CE2E26CD9700B1AC6B /* Build configuration list for PBXNativeTarget "testSwiftUI" */ = {
+		E2BE3C82302F745500E8008D /* Build configuration list for PBXNativeTarget "LocalMind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2C779CF2E26CD9700B1AC6B /* Debug */,
-				E2C779D02E26CD9700B1AC6B /* Release */,
+				E2BE3C83302F745500E8008D /* Debug */,
+				E2BE3C84302F745500E8008D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2C779D12E26CD9700B1AC6B /* Build configuration list for PBXNativeTarget "testSwiftUITests" */ = {
+		E2BE3C85302F745500E8008D /* Build configuration list for PBXNativeTarget "LocalMindTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2C779D22E26CD9700B1AC6B /* Debug */,
-				E2C779D32E26CD9700B1AC6B /* Release */,
+				E2BE3C86302F745500E8008D /* Debug */,
+				E2BE3C87302F745500E8008D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2C779D42E26CD9700B1AC6B /* Build configuration list for PBXNativeTarget "testSwiftUIUITests" */ = {
+		E2BE3C88302F745500E8008D /* Build configuration list for PBXNativeTarget "LocalMindUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2C779D52E26CD9700B1AC6B /* Debug */,
-				E2C779D62E26CD9700B1AC6B /* Release */,
+				E2BE3C89302F745500E8008D /* Debug */,
+				E2BE3C8A302F745500E8008D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E292E9CC2E56D5050060AC7F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E22FE0502E5ACFCB00D08BA8 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E292E9CC2E56D5050060AC7F /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = E2C779A52E26CD9500B1AC6B /* Project object */;
+	rootObject = E2BE3C59302F745200E8008D /* Project object */;
 }

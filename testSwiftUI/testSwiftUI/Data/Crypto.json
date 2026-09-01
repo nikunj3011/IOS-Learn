@@ -1,0 +1,452 @@
+[
+    {
+      "rank": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "price": "$114,408.73",
+      "24hChange": "+0.90%",
+      "24hVolume": "$65.78 B",
+      "marketCap": "$2,277.79 B"
+    },
+    {
+      "rank": 2,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "price": "$4,327.55",
+      "24hChange": "+4.65%",
+      "24hVolume": "$46.05 B",
+      "marketCap": "$522.37 B"
+    },
+    {
+      "rank": 3,
+      "name": "XRP",
+      "symbol": "XRP",
+      "price": "$2.95",
+      "24hChange": "+2.10%",
+      "24hVolume": "$6.6 B",
+      "marketCap": "$175.1 B"
+    },
+    {
+      "rank": 4,
+      "name": "Tether",
+      "symbol": "USDT",
+      "price": "$1",
+      "24hChange": "-0.02%",
+      "24hVolume": "$123.3 B",
+      "marketCap": "$167.05 B"
+    },
+    {
+      "rank": 5,
+      "name": "BNB",
+      "symbol": "BNB",
+      "price": "$871.22",
+      "24hChange": "+4.92%",
+      "24hVolume": "$3.69 B",
+      "marketCap": "$121.35 B"
+    },
+    {
+      "rank": 6,
+      "name": "Solana",
+      "symbol": "SOL",
+      "price": "$189.24",
+      "24hChange": "+4.94%",
+      "24hVolume": "$6.38 B",
+      "marketCap": "$102.23 B"
+    },
+    {
+      "rank": 7,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "price": "$0.9997",
+      "24hChange": "-0.02%",
+      "24hVolume": "$17.59 B",
+      "marketCap": "$67.46 B"
+    },
+    {
+      "rank": 8,
+      "name": "TRON",
+      "symbol": "TRX",
+      "price": "$0.3545",
+      "24hChange": "+1.72%",
+      "24hVolume": "$1.14 B",
+      "marketCap": "$33.56 B"
+    },
+    {
+      "rank": 9,
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "price": "$0.2236",
+      "24hChange": "+5.84%",
+      "24hVolume": "$3.19 B",
+      "marketCap": "$33.67 B"
+    },
+    {
+      "rank": 10,
+      "name": "Cardano",
+      "symbol": "ADA",
+      "price": "$0.889",
+      "24hChange": "+4.97%",
+      "24hVolume": "$2.15 B",
+      "marketCap": "$31.74 B"
+    },
+    {
+      "rank": 11,
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "price": "$26.33",
+      "24hChange": "+11.52%",
+      "24hVolume": "$3.04 B",
+      "marketCap": "$17.85 B"
+    },
+    {
+      "rank": 12,
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "price": "$114,449.79",
+      "24hChange": "+0.92%",
+      "24hVolume": "$323.54 M",
+      "marketCap": "$14.56 B"
+    },
+    {
+      "rank": 13,
+      "name": "Stellar",
+      "symbol": "XLM",
+      "price": "$0.4052",
+      "24hChange": "+2.62%",
+      "24hVolume": "$316.56 M",
+      "marketCap": "$12.69 B"
+    },
+    {
+      "rank": 14,
+      "name": "Sui",
+      "symbol": "SUI",
+      "price": "$3.56",
+      "24hChange": "+3.15%",
+      "24hVolume": "$1.25 B",
+      "marketCap": "$12.51 B"
+    },
+    {
+      "rank": 15,
+      "name": "Bitcoin Cash",
+      "symbol": "BCH",
+      "price": "$563.63",
+      "24hChange": "+2.25%",
+      "24hVolume": "$295.74 M",
+      "marketCap": "$11.22 B"
+    },
+    {
+      "rank": 16,
+      "name": "Hedera",
+      "symbol": "HBAR",
+      "price": "$0.2415",
+      "24hChange": "+3.62%",
+      "24hVolume": "$319 M",
+      "marketCap": "$10.24 B"
+    },
+    {
+      "rank": 17,
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "price": "$23.50",
+      "24hChange": "+3.93%",
+      "24hVolume": "$544.79 M",
+      "marketCap": "$9.93 B"
+    },
+    {
+      "rank": 18,
+      "name": "UNUS SED LEO",
+      "symbol": "LEO",
+      "price": "$9.60",
+      "24hChange": "-0.16%",
+      "24hVolume": "$1.04 M",
+      "marketCap": "$8.86 B"
+    },
+    {
+      "rank": 19,
+      "name": "Litecoin",
+      "symbol": "LTC",
+      "price": "$117.00",
+      "24hChange": "+2.86%",
+      "24hVolume": "$676.9 M",
+      "marketCap": "$8.92 B"
+    },
+    {
+      "rank": 20,
+      "name": "Toncoin",
+      "symbol": "TON",
+      "price": "$3.28",
+      "24hChange": "+1.30%",
+      "24hVolume": "$158.64 M",
+      "marketCap": "$8.43 B"
+    },
+    {
+      "rank": 21,
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "price": "$0.00001268",
+      "24hChange": "+4.00%",
+      "24hVolume": "$199.48 M",
+      "marketCap": "$7.47 B"
+    },
+    {
+      "rank": 22,
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "price": "$10.62",
+      "24hChange": "+5.20%",
+      "24hVolume": "$408.14 M",
+      "marketCap": "$6.68 B"
+    },
+    {
+      "rank": 23,
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "price": "$3.91",
+      "24hChange": "+4.58%",
+      "24hVolume": "$278.88 M",
+      "marketCap": "$6.29 B"
+    },
+    {
+      "rank": 24,
+      "name": "WhiteBIT Token",
+      "symbol": "WBT",
+      "price": "$43.19",
+      "24hChange": "+0.80%",
+      "24hVolume": "$66.63 M",
+      "marketCap": "$6.23 B"
+    },
+    {
+      "rank": 25,
+      "name": "Dai",
+      "symbol": "DAI",
+      "price": "$0.9994",
+      "24hChange": "-0.06%",
+      "24hVolume": "$21.66 B",
+      "marketCap": "$5.36 B"
+    },
+    {
+      "rank": 26,
+      "name": "Bitget Token",
+      "symbol": "BGB",
+      "price": "$4.72",
+      "24hChange": "+5.79%",
+      "24hVolume": "$257.2 M",
+      "marketCap": "$5.38 B"
+    },
+    {
+      "rank": 27,
+      "name": "Monero",
+      "symbol": "XMR",
+      "price": "$263.64",
+      "24hChange": "+2.25%",
+      "24hVolume": "$130.03 M",
+      "marketCap": "$4.86 B"
+    },
+    {
+      "rank": 28,
+      "name": "Cronos",
+      "symbol": "CRO",
+      "price": "$0.1454",
+      "24hChange": "+3.71%",
+      "24hVolume": "$23.69 M",
+      "marketCap": "$4.88 B"
+    },
+    {
+      "rank": 29,
+      "name": "Aave",
+      "symbol": "AAVE",
+      "price": "$303.08",
+      "24hChange": "+7.38%",
+      "24hVolume": "$517.11 M",
+      "marketCap": "$4.61 B"
+    },
+    {
+      "rank": 30,
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "price": "$0.00001071",
+      "24hChange": "+3.50%",
+      "24hVolume": "$549.6 M",
+      "marketCap": "$4.5 B"
+    },
+    {
+      "rank": 31,
+      "name": "Ethena",
+      "symbol": "ENA",
+      "price": "$0.6541",
+      "24hChange": "+1.71%",
+      "24hVolume": "$601.59 M",
+      "marketCap": "$4.33 B"
+    },
+    {
+      "rank": 32,
+      "name": "Mantle",
+      "symbol": "MNT",
+      "price": "$1.26",
+      "24hChange": "-6.71%",
+      "24hVolume": "$602.86 M",
+      "marketCap": "$4.22 B"
+    },
+    {
+      "rank": 33,
+      "name": "OKB",
+      "symbol": "OKB",
+      "price": "$190.77",
+      "24hChange": "+51.93%",
+      "24hVolume": "$1.04 B",
+      "marketCap": "$4.01 B"
+    },
+    {
+      "rank": 34,
+      "name": "bittensor",
+      "symbol": "TAO",
+      "price": "$351.03",
+      "24hChange": "+1.42%",
+      "24hVolume": "$110.19 M",
+      "marketCap": "$3.43 B"
+    },
+    {
+      "rank": 35,
+      "name": "Ethereum Classic",
+      "symbol": "ETC",
+      "price": "$21.63",
+      "24hChange": "+4.52%",
+      "24hVolume": "$118.46 M",
+      "marketCap": "$3.31 B"
+    },
+    {
+      "rank": 36,
+      "name": "NEAR Protocol",
+      "symbol": "NEAR",
+      "price": "$2.55",
+      "24hChange": "+4.90%",
+      "24hVolume": "$178.26 M",
+      "marketCap": "$3.19 B"
+    },
+    {
+      "rank": 37,
+      "name": "Aptos",
+      "symbol": "APT",
+      "price": "$4.48",
+      "24hChange": "+4.13%",
+      "24hVolume": "$131.76 M",
+      "marketCap": "$3.07 B"
+    },
+    {
+      "rank": 38,
+      "name": "Ondo",
+      "symbol": "ONDO",
+      "price": "$0.947",
+      "24hChange": "+3.02%",
+      "24hVolume": "$131.97 M",
+      "marketCap": "$2.99 B"
+    },
+    {
+      "rank": 39,
+      "name": "Internet Computer",
+      "symbol": "ICP",
+      "price": "$5.28",
+      "24hChange": "+3.97%",
+      "24hVolume": "$64.38 M",
+      "marketCap": "$2.84 B"
+    },
+    {
+      "rank": 40,
+      "name": "Arbitrum",
+      "symbol": "ARB",
+      "price": "$0.5167",
+      "24hChange": "+7.06%",
+      "24hVolume": "$570.99 M",
+      "marketCap": "$2.74 B"
+    },
+    {
+      "rank": 41,
+      "name": "Polygon Ecosystem Token",
+      "symbol": "POL",
+      "price": "$0.2444",
+      "24hChange": "+2.65%",
+      "24hVolume": "$208.68 M",
+      "marketCap": "$2.56 B"
+    },
+    {
+      "rank": 42,
+      "name": "Kaspa",
+      "symbol": "KAS",
+      "price": "$0.08722",
+      "24hChange": "+3.80%",
+      "24hVolume": "$55.1 M",
+      "marketCap": "$2.32 B"
+    },
+    {
+      "rank": 43,
+      "name": "Algorand",
+      "symbol": "ALGO",
+      "price": "$0.2572",
+      "24hChange": "+7.32%",
+      "24hVolume": "$111.97 M",
+      "marketCap": "$2.24 B"
+    },
+    {
+      "rank": 44,
+      "name": "GateToken",
+      "symbol": "GT",
+      "price": "$17.86",
+      "24hChange": "+6.10%",
+      "24hVolume": "$17.85 M",
+      "marketValue": "$2.19 B"
+    },
+    {
+      "rank": 45,
+      "name": "VeChain",
+      "symbol": "VET",
+      "price": "$0.02435",
+      "24hChange": "+5.31%",
+      "24hVolume": "$54.4 M",
+      "marketCap": "$2.09 B"
+    },
+    {
+      "rank": 46,
+      "name": "Cosmos",
+      "symbol": "ATOM",
+      "price": "$4.50",
+      "24hChange": "+4.47%",
+      "24hVolume": "$94.68 M",
+      "marketCap": "$2.07 B"
+    },
+    {
+      "rank": 47,
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "price": "$0.03223",
+      "24hChange": "+8.43%",
+      "24hVolume": "$503.53 M",
+      "marketCap": "$2.03 B"
+    },
+    {
+      "rank": 48,
+      "name": "Fasttoken",
+      "symbol": "FTN",
+      "price": "$4.55",
+      "24hChange": "-0.27%",
+      "24hVolume": "$62.02 M",
+      "marketCap": "$1.98 B"
+    },
+    {
+      "rank": 49,
+      "name": "Render Token",
+      "symbol": "RENDER",
+      "price": "$3.69",
+      "24hChange": "+3.05%",
+      "24hVolume": "$62.76 M",
+      "marketCap": "$1.91 B"
+    },
+    {
+      "rank": 50,
+      "name": "Worldcoin",
+      "symbol": "WLD",
+      "price": "$0.9633",
+      "24hChange": "+6.14%",
+      "24hVolume": "$187.31 M",
+      "marketCap": "$1.84 B"
+    }
+  ]

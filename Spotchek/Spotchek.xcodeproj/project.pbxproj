@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E22FE0512E5ACFCB00D08BA8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E22FE0502E5ACFCB00D08BA8 /* RealmSwift */; };
-		E240E28B2E5AD8DB00926E75 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = E22FE0502E5ACFCB00D08BA8 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E2C024402F7B5CA4009B2B56 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2C0243F2F7B5CA4009B2B56 /* RealmSwift */; };
+		E2C024442F7B65C5009B2B56 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = E2C0243F2F7B5CA4009B2B56 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E2C779BB2E26CD9700B1AC6B /* PBXContainerItemProxy */ = {
+		E2C023502F7B58E7009B2B56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E2C779A52E26CD9500B1AC6B /* Project object */;
+			containerPortal = E2C0233A2F7B58E3009B2B56 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E2C779AC2E26CD9500B1AC6B;
-			remoteInfo = testSwiftUI;
+			remoteGlobalIDString = E2C023412F7B58E3009B2B56;
+			remoteInfo = Spotchek;
 		};
-		E2C779C52E26CD9700B1AC6B /* PBXContainerItemProxy */ = {
+		E2C0235A2F7B58E7009B2B56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E2C779A52E26CD9500B1AC6B /* Project object */;
+			containerPortal = E2C0233A2F7B58E3009B2B56 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E2C779AC2E26CD9500B1AC6B;
-			remoteInfo = testSwiftUI;
+			remoteGlobalIDString = E2C023412F7B58E3009B2B56;
+			remoteInfo = Spotchek;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E240E28C2E5AD8DB00926E75 /* Embed Frameworks */ = {
+		E2C024452F7B65C5009B2B56 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E240E28B2E5AD8DB00926E75 /* RealmSwift in Embed Frameworks */,
+				E2C024442F7B65C5009B2B56 /* RealmSwift in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,59 +43,59 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E2C779AD2E26CD9500B1AC6B /* testSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2C779BA2E26CD9700B1AC6B /* testSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2C779C42E26CD9700B1AC6B /* testSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C023422F7B58E3009B2B56 /* Spotchek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotchek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C0234F2F7B58E7009B2B56 /* SpotchekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotchekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C023592F7B58E7009B2B56 /* SpotchekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotchekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E2C77A0A2E26CFB600B1AC6B /* Exceptions for "testSwiftUI" folder in "testSwiftUI" target */ = {
+		E2C024432F7B60C9009B2B56 /* Exceptions for "Spotchek" folder in "Spotchek" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = E2C779AC2E26CD9500B1AC6B /* testSwiftUI */;
+			target = E2C023412F7B58E3009B2B56 /* Spotchek */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E2C779AF2E26CD9500B1AC6B /* testSwiftUI */ = {
+		E2C023442F7B58E3009B2B56 /* Spotchek */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E2C77A0A2E26CFB600B1AC6B /* Exceptions for "testSwiftUI" folder in "testSwiftUI" target */,
+				E2C024432F7B60C9009B2B56 /* Exceptions for "Spotchek" folder in "Spotchek" target */,
 			);
-			path = testSwiftUI;
+			path = Spotchek;
 			sourceTree = "<group>";
 		};
-		E2C779BD2E26CD9700B1AC6B /* testSwiftUITests */ = {
+		E2C023522F7B58E7009B2B56 /* SpotchekTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = testSwiftUITests;
+			path = SpotchekTests;
 			sourceTree = "<group>";
 		};
-		E2C779C72E26CD9700B1AC6B /* testSwiftUIUITests */ = {
+		E2C0235C2F7B58E7009B2B56 /* SpotchekUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = testSwiftUIUITests;
+			path = SpotchekUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E2C779AA2E26CD9500B1AC6B /* Frameworks */ = {
+		E2C0233F2F7B58E3009B2B56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E22FE0512E5ACFCB00D08BA8 /* RealmSwift in Frameworks */,
+				E2C024402F7B5CA4009B2B56 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C779B72E26CD9700B1AC6B /* Frameworks */ = {
+		E2C0234C2F7B58E7009B2B56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C779C12E26CD9700B1AC6B /* Frameworks */ = {
+		E2C023562F7B58E7009B2B56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -105,22 +105,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E2C779A42E26CD9500B1AC6B = {
+		E2C023392F7B58E3009B2B56 = {
 			isa = PBXGroup;
 			children = (
-				E2C779AF2E26CD9500B1AC6B /* testSwiftUI */,
-				E2C779BD2E26CD9700B1AC6B /* testSwiftUITests */,
-				E2C779C72E26CD9700B1AC6B /* testSwiftUIUITests */,
-				E2C779AE2E26CD9500B1AC6B /* Products */,
+				E2C023442F7B58E3009B2B56 /* Spotchek */,
+				E2C023522F7B58E7009B2B56 /* SpotchekTests */,
+				E2C0235C2F7B58E7009B2B56 /* SpotchekUITests */,
+				E2C023432F7B58E3009B2B56 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E2C779AE2E26CD9500B1AC6B /* Products */ = {
+		E2C023432F7B58E3009B2B56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2C779AD2E26CD9500B1AC6B /* testSwiftUI.app */,
-				E2C779BA2E26CD9700B1AC6B /* testSwiftUITests.xctest */,
-				E2C779C42E26CD9700B1AC6B /* testSwiftUIUITests.xctest */,
+				E2C023422F7B58E3009B2B56 /* Spotchek.app */,
+				E2C0234F2F7B58E7009B2B56 /* SpotchekTests.xctest */,
+				E2C023592F7B58E7009B2B56 /* SpotchekUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,139 +128,139 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2C779AC2E26CD9500B1AC6B /* testSwiftUI */ = {
+		E2C023412F7B58E3009B2B56 /* Spotchek */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2C779CE2E26CD9700B1AC6B /* Build configuration list for PBXNativeTarget "testSwiftUI" */;
+			buildConfigurationList = E2C023632F7B58E7009B2B56 /* Build configuration list for PBXNativeTarget "Spotchek" */;
 			buildPhases = (
-				E2C779A92E26CD9500B1AC6B /* Sources */,
-				E2C779AA2E26CD9500B1AC6B /* Frameworks */,
-				E2C779AB2E26CD9500B1AC6B /* Resources */,
-				E240E28C2E5AD8DB00926E75 /* Embed Frameworks */,
+				E2C0233E2F7B58E3009B2B56 /* Sources */,
+				E2C0233F2F7B58E3009B2B56 /* Frameworks */,
+				E2C023402F7B58E3009B2B56 /* Resources */,
+				E2C024452F7B65C5009B2B56 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E2C779AF2E26CD9500B1AC6B /* testSwiftUI */,
+				E2C023442F7B58E3009B2B56 /* Spotchek */,
 			);
-			name = testSwiftUI;
+			name = Spotchek;
 			packageProductDependencies = (
-				E22FE0502E5ACFCB00D08BA8 /* RealmSwift */,
+				E2C0243F2F7B5CA4009B2B56 /* RealmSwift */,
 			);
-			productName = testSwiftUI;
-			productReference = E2C779AD2E26CD9500B1AC6B /* testSwiftUI.app */;
+			productName = Spotchek;
+			productReference = E2C023422F7B58E3009B2B56 /* Spotchek.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E2C779B92E26CD9700B1AC6B /* testSwiftUITests */ = {
+		E2C0234E2F7B58E7009B2B56 /* SpotchekTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2C779D12E26CD9700B1AC6B /* Build configuration list for PBXNativeTarget "testSwiftUITests" */;
+			buildConfigurationList = E2C023662F7B58E7009B2B56 /* Build configuration list for PBXNativeTarget "SpotchekTests" */;
 			buildPhases = (
-				E2C779B62E26CD9700B1AC6B /* Sources */,
-				E2C779B72E26CD9700B1AC6B /* Frameworks */,
-				E2C779B82E26CD9700B1AC6B /* Resources */,
+				E2C0234B2F7B58E7009B2B56 /* Sources */,
+				E2C0234C2F7B58E7009B2B56 /* Frameworks */,
+				E2C0234D2F7B58E7009B2B56 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E2C779BC2E26CD9700B1AC6B /* PBXTargetDependency */,
+				E2C023512F7B58E7009B2B56 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E2C779BD2E26CD9700B1AC6B /* testSwiftUITests */,
+				E2C023522F7B58E7009B2B56 /* SpotchekTests */,
 			);
-			name = testSwiftUITests;
+			name = SpotchekTests;
 			packageProductDependencies = (
 			);
-			productName = testSwiftUITests;
-			productReference = E2C779BA2E26CD9700B1AC6B /* testSwiftUITests.xctest */;
+			productName = SpotchekTests;
+			productReference = E2C0234F2F7B58E7009B2B56 /* SpotchekTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E2C779C32E26CD9700B1AC6B /* testSwiftUIUITests */ = {
+		E2C023582F7B58E7009B2B56 /* SpotchekUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2C779D42E26CD9700B1AC6B /* Build configuration list for PBXNativeTarget "testSwiftUIUITests" */;
+			buildConfigurationList = E2C023692F7B58E7009B2B56 /* Build configuration list for PBXNativeTarget "SpotchekUITests" */;
 			buildPhases = (
-				E2C779C02E26CD9700B1AC6B /* Sources */,
-				E2C779C12E26CD9700B1AC6B /* Frameworks */,
-				E2C779C22E26CD9700B1AC6B /* Resources */,
+				E2C023552F7B58E7009B2B56 /* Sources */,
+				E2C023562F7B58E7009B2B56 /* Frameworks */,
+				E2C023572F7B58E7009B2B56 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E2C779C62E26CD9700B1AC6B /* PBXTargetDependency */,
+				E2C0235B2F7B58E7009B2B56 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E2C779C72E26CD9700B1AC6B /* testSwiftUIUITests */,
+				E2C0235C2F7B58E7009B2B56 /* SpotchekUITests */,
 			);
-			name = testSwiftUIUITests;
+			name = SpotchekUITests;
 			packageProductDependencies = (
 			);
-			productName = testSwiftUIUITests;
-			productReference = E2C779C42E26CD9700B1AC6B /* testSwiftUIUITests.xctest */;
+			productName = SpotchekUITests;
+			productReference = E2C023592F7B58E7009B2B56 /* SpotchekUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E2C779A52E26CD9500B1AC6B /* Project object */ = {
+		E2C0233A2F7B58E3009B2B56 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					E2C779AC2E26CD9500B1AC6B = {
-						CreatedOnToolsVersion = 16.3;
+					E2C023412F7B58E3009B2B56 = {
+						CreatedOnToolsVersion = 26.0.1;
 					};
-					E2C779B92E26CD9700B1AC6B = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = E2C779AC2E26CD9500B1AC6B;
+					E2C0234E2F7B58E7009B2B56 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = E2C023412F7B58E3009B2B56;
 					};
-					E2C779C32E26CD9700B1AC6B = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = E2C779AC2E26CD9500B1AC6B;
+					E2C023582F7B58E7009B2B56 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = E2C023412F7B58E3009B2B56;
 					};
 				};
 			};
-			buildConfigurationList = E2C779A82E26CD9500B1AC6B /* Build configuration list for PBXProject "testSwiftUI" */;
+			buildConfigurationList = E2C0233D2F7B58E3009B2B56 /* Build configuration list for PBXProject "Spotchek" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = E2C779A42E26CD9500B1AC6B;
+			mainGroup = E2C023392F7B58E3009B2B56;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				E292E9CC2E56D5050060AC7F /* XCRemoteSwiftPackageReference "realm-swift" */,
+				E2C023AC2F7B598F009B2B56 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E2C779AE2E26CD9500B1AC6B /* Products */;
+			productRefGroup = E2C023432F7B58E3009B2B56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2C779AC2E26CD9500B1AC6B /* testSwiftUI */,
-				E2C779B92E26CD9700B1AC6B /* testSwiftUITests */,
-				E2C779C32E26CD9700B1AC6B /* testSwiftUIUITests */,
+				E2C023412F7B58E3009B2B56 /* Spotchek */,
+				E2C0234E2F7B58E7009B2B56 /* SpotchekTests */,
+				E2C023582F7B58E7009B2B56 /* SpotchekUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E2C779AB2E26CD9500B1AC6B /* Resources */ = {
+		E2C023402F7B58E3009B2B56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C779B82E26CD9700B1AC6B /* Resources */ = {
+		E2C0234D2F7B58E7009B2B56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C779C22E26CD9700B1AC6B /* Resources */ = {
+		E2C023572F7B58E7009B2B56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,21 +270,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E2C779A92E26CD9500B1AC6B /* Sources */ = {
+		E2C0233E2F7B58E3009B2B56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C779B62E26CD9700B1AC6B /* Sources */ = {
+		E2C0234B2F7B58E7009B2B56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C779C02E26CD9700B1AC6B /* Sources */ = {
+		E2C023552F7B58E7009B2B56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,20 +294,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E2C779BC2E26CD9700B1AC6B /* PBXTargetDependency */ = {
+		E2C023512F7B58E7009B2B56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E2C779AC2E26CD9500B1AC6B /* testSwiftUI */;
-			targetProxy = E2C779BB2E26CD9700B1AC6B /* PBXContainerItemProxy */;
+			target = E2C023412F7B58E3009B2B56 /* Spotchek */;
+			targetProxy = E2C023502F7B58E7009B2B56 /* PBXContainerItemProxy */;
 		};
-		E2C779C62E26CD9700B1AC6B /* PBXTargetDependency */ = {
+		E2C0235B2F7B58E7009B2B56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E2C779AC2E26CD9500B1AC6B /* testSwiftUI */;
-			targetProxy = E2C779C52E26CD9700B1AC6B /* PBXContainerItemProxy */;
+			target = E2C023412F7B58E3009B2B56 /* Spotchek */;
+			targetProxy = E2C0235A2F7B58E7009B2B56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		E2C779CC2E26CD9700B1AC6B /* Debug */ = {
+		E2C023612F7B58E7009B2B56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -360,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -371,7 +371,7 @@
 			};
 			name = Debug;
 		};
-		E2C779CD2E26CD9700B1AC6B /* Release */ = {
+		E2C023622F7B58E7009B2B56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -428,7 +428,7 @@
 			};
 			name = Release;
 		};
-		E2C779CF2E26CD9700B1AC6B /* Debug */ = {
+		E2C023642F7B58E7009B2B56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -437,11 +437,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testSwiftUI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth in use";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is used";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Bluetooth in use";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location in use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,15 +452,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikunj.testSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinvox.Spotchek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E2C779D02E26CD9700B1AC6B /* Release */ = {
+		E2C023652F7B58E7009B2B56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -469,11 +473,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testSwiftUI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth in use";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is used";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Bluetooth in use";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location in use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -484,15 +488,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikunj.testSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinvox.Spotchek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		E2C779D22E26CD9700B1AC6B /* Debug */ = {
+		E2C023672F7B58E7009B2B56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,18 +508,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikunj.testSwiftUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinvox.SpotchekTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotchek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spotchek";
 			};
 			name = Debug;
 		};
-		E2C779D32E26CD9700B1AC6B /* Release */ = {
+		E2C023682F7B58E7009B2B56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,18 +530,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikunj.testSwiftUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinvox.SpotchekTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotchek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spotchek";
 			};
 			name = Release;
 		};
-		E2C779D52E26CD9700B1AC6B /* Debug */ = {
+		E2C0236A2F7B58E7009B2B56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -538,16 +552,19 @@
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikunj.testSwiftUIUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinvox.SpotchekUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = testSwiftUI;
+				TEST_TARGET_NAME = Spotchek;
 			};
 			name = Debug;
 		};
-		E2C779D62E26CD9700B1AC6B /* Release */ = {
+		E2C0236B2F7B58E7009B2B56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -555,50 +572,53 @@
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikunj.testSwiftUIUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinvox.SpotchekUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = testSwiftUI;
+				TEST_TARGET_NAME = Spotchek;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2C779A82E26CD9500B1AC6B /* Build configuration list for PBXProject "testSwiftUI" */ = {
+		E2C0233D2F7B58E3009B2B56 /* Build configuration list for PBXProject "Spotchek" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2C779CC2E26CD9700B1AC6B /* Debug */,
-				E2C779CD2E26CD9700B1AC6B /* Release */,
+				E2C023612F7B58E7009B2B56 /* Debug */,
+				E2C023622F7B58E7009B2B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2C779CE2E26CD9700B1AC6B /* Build configuration list for PBXNativeTarget "testSwiftUI" */ = {
+		E2C023632F7B58E7009B2B56 /* Build configuration list for PBXNativeTarget "Spotchek" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2C779CF2E26CD9700B1AC6B /* Debug */,
-				E2C779D02E26CD9700B1AC6B /* Release */,
+				E2C023642F7B58E7009B2B56 /* Debug */,
+				E2C023652F7B58E7009B2B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2C779D12E26CD9700B1AC6B /* Build configuration list for PBXNativeTarget "testSwiftUITests" */ = {
+		E2C023662F7B58E7009B2B56 /* Build configuration list for PBXNativeTarget "SpotchekTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2C779D22E26CD9700B1AC6B /* Debug */,
-				E2C779D32E26CD9700B1AC6B /* Release */,
+				E2C023672F7B58E7009B2B56 /* Debug */,
+				E2C023682F7B58E7009B2B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2C779D42E26CD9700B1AC6B /* Build configuration list for PBXNativeTarget "testSwiftUIUITests" */ = {
+		E2C023692F7B58E7009B2B56 /* Build configuration list for PBXNativeTarget "SpotchekUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2C779D52E26CD9700B1AC6B /* Debug */,
-				E2C779D62E26CD9700B1AC6B /* Release */,
+				E2C0236A2F7B58E7009B2B56 /* Debug */,
+				E2C0236B2F7B58E7009B2B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -606,23 +626,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E292E9CC2E56D5050060AC7F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+		E2C023AC2F7B598F009B2B56 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift";
 			requirement = {
-				branch = master;
+				branch = community;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E22FE0502E5ACFCB00D08BA8 /* RealmSwift */ = {
+		E2C0243F2F7B5CA4009B2B56 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E292E9CC2E56D5050060AC7F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = E2C023AC2F7B598F009B2B56 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = E2C779A52E26CD9500B1AC6B /* Project object */;
+	rootObject = E2C0233A2F7B58E3009B2B56 /* Project object */;
 }

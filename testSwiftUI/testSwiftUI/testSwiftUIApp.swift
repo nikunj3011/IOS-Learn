@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 @main
-struct testSwiftUIApp: App {
+struct testSwiftUIApp: SwiftUI.App {
+    init() {
+            let config = Realm.Configuration(
+                schemaVersion: 1,
+                deleteRealmIfMigrationNeeded: true
+            )
+            Realm.Configuration.defaultConfiguration = config
+        }
     var body: some Scene {
         WindowGroup {
-            LandingPageView()
+            ContentView5()
         }
     }
 }

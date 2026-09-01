@@ -1,0 +1,29 @@
+
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    objectVersion = 56;
+    classes = {};
+    objects = {};
+    rootObject = ROOTOBJ;
+
+    attributes = {
+        TargetAttributes = {
+            ROOTOBJ = {
+                DevelopmentTeam = "";
+                ProvisioningStyle = Automatic;
+            };
+        };
+    };
+
+    buildConfigurationList = CONFIGLIST;
+    compatibilityVersion = "Xcode 14.0";
+    developmentRegion = en;
+    hasScannedForEncodings = 0;
+    knownRegions = (en, Base);
+    mainGroup = MAINGROUP;
+    productRefGroup = PRODUCTS;
+    projectDirPath = "";
+    projectRoot = "";
+    targets = (ROOTOBJ, );
+}
