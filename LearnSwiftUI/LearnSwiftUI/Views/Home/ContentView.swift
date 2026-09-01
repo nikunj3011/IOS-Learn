@@ -20,6 +20,18 @@ struct ContentView: View {
                     LessonCard(number: 2, title: "Control flow", subtitle: "Make decisions and repeat UI with if, switch, and loops.", symbol: "arrow.triangle.branch", color: .orange) {
                         ControlFlowLessonView()
                     }
+
+                    LessonCard(number: 3, title: "Functions", subtitle: "Work with parameters, return values, and closures.", symbol: "function", color: .purple) {
+                        FunctionsLessonView()
+                    }
+
+                    LessonCard(number: 4, title: "Optionals", subtitle: "Handle values that may be missing without crashes.", symbol: "questionmark.app.fill", color: .green) {
+                        OptionalsLessonView()
+                    }
+
+                    LessonCard(number: 5, title: "Collections", subtitle: "Organize data with arrays, sets, and dictionaries.", symbol: "square.stack.3d.up.fill", color: .indigo) {
+                        CollectionsLessonView()
+                    }
                 }
                 .padding()
             }
