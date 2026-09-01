@@ -9,9 +9,16 @@ import Testing
 @testable import LearnSwiftUI
 
 struct LearnSwiftUITests {
-
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    @Test func passingScoreUsesSuccessMessage() {
+        #expect(ControlFlowViewModel.scoreMessage(for: 70) == "Great job — you passed!")
     }
 
+    @Test func scoreBelowThresholdUsesPracticeMessage() {
+        #expect(ControlFlowViewModel.scoreMessage(for: 69) == "Keep practicing — nearly there.")
+    }
+
+    @Test(arguments: [StudyDay.monday, .wednesday, .friday])
+    func everyStudyDayHasAPlan(day: StudyDay) {
+        #expect(!ControlFlowViewModel.plan(for: day).isEmpty)
+    }
 }
