@@ -42,4 +42,33 @@ struct LearnSwiftUITests {
         viewModel.addTopic()
         #expect(viewModel.topics.count == originalCount)
     }
+
+    @Test func classCopiesShareTheSameReference() {
+        let original = PlayerReference(name: "Alex")
+        let copy = original
+        copy.name = "Sam"
+        #expect(original.name == "Sam")
+    }
+
+    @Test func protocolAllowsDifferentConcreteTypes() {
+        let item: any LessonDescribing = SwiftTopic(title: "Protocols")
+        #expect(ProtocolsLessonViewModel.describe(item) == "Learn Protocols with Swift.")
+    }
+
+    @Test func genericSwapWorksWithStrings() {
+        let result = GenericsLessonViewModel.swapped("Swift", "UI")
+        #expect(result.0 == "UI")
+        #expect(result.1 == "Swift")
+    }
+
+    @Test func enumCarriesAssociatedData() {
+        let state = LessonLoadingState.loaded(topic: "Enums")
+        #expect(state == .loaded(topic: "Enums"))
+    }
+
+    @Test func validationThrowsForShortName() {
+        #expect(throws: ValidationError.nameTooShort(minimum: 3)) {
+            try ErrorHandlingLessonViewModel.validate("A")
+        }
+    }
 }

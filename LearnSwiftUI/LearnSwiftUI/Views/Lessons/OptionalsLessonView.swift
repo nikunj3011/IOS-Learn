@@ -7,8 +7,8 @@ struct OptionalsLessonView: View {
         List {
             Section("Try an optional") {
                 TextField("Nickname (optional)", text: $viewModel.nicknameInput)
-                Label(viewModel.ifLetMessage, systemImage: viewModel.nickname == nil ? "questionmark.circle" : "checkmark.circle.fill")
-                    .foregroundStyle(viewModel.nickname == nil ? .orange : .green)
+                Label(viewModel.ifLetMessage, systemImage: viewModel.statusSymbol)
+                    .foregroundStyle(viewModel.hasNickname ? .green : .orange)
             }
 
             Section("? means the value may be nil") {
@@ -26,7 +26,7 @@ struct OptionalsLessonView: View {
             }
 
             Section("Exit early with guard let") {
-                Text(OptionalsLessonViewModel.guardLetMessage(for: viewModel.nickname))
+                Text(viewModel.guardMessage)
                     .foregroundStyle(.secondary)
                 CodeBlock(code: """
                 guard let nickname else {

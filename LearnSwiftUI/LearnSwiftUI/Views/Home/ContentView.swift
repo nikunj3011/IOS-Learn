@@ -32,6 +32,26 @@ struct ContentView: View {
                     LessonCard(number: 5, title: "Collections", subtitle: "Organize data with arrays, sets, and dictionaries.", symbol: "square.stack.3d.up.fill", color: .indigo) {
                         CollectionsLessonView()
                     }
+
+                    LessonCard(number: 6, title: "Structs & classes", subtitle: "Compare value semantics with shared reference identity.", symbol: "square.on.square", color: .cyan) {
+                        SemanticsLessonView()
+                    }
+
+                    LessonCard(number: 7, title: "Protocols", subtitle: "Define contracts that many different types can follow.", symbol: "checklist", color: .teal) {
+                        ProtocolsLessonView()
+                    }
+
+                    LessonCard(number: 8, title: "Generics", subtitle: "Write reusable, type-safe code with placeholders.", symbol: "chevron.left.forwardslash.chevron.right", color: .pink) {
+                        GenericsLessonView()
+                    }
+
+                    LessonCard(number: 9, title: "Enums", subtitle: "Model application state with associated values.", symbol: "point.3.connected.trianglepath.dotted", color: .mint) {
+                        EnumsLessonView()
+                    }
+
+                    LessonCard(number: 10, title: "Error handling", subtitle: "Represent and recover from failures using throws and Result.", symbol: "exclamationmark.triangle.fill", color: .red) {
+                        ErrorHandlingLessonView()
+                    }
                 }
                 .padding()
             }

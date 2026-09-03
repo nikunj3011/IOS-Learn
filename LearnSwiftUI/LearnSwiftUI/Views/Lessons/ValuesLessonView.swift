@@ -11,10 +11,9 @@ struct ValuesLessonView: View {
                 Toggle("Notifications", isOn: $viewModel.notificationsOn)
             }
             Section("The values") {
-                ValueRow(name: "courseName", value: viewModel.courseName, type: "String", keyword: "let")
-                ValueRow(name: "learnerName", value: viewModel.learnerName, type: "String", keyword: "var")
-                ValueRow(name: "practiceMinutes", value: "\(viewModel.practiceMinutes)", type: "Int", keyword: "var")
-                ValueRow(name: "notificationsOn", value: "\(viewModel.notificationsOn)", type: "Bool", keyword: "var")
+                ForEach(viewModel.displayedValues) { value in
+                    ValueRow(name: value.name, value: value.value, type: value.type, keyword: value.keyword)
+                }
             }
             Section("Swift code") {
                 CodeBlock(code: viewModel.codeExample)

@@ -11,33 +11,33 @@ struct CollectionsLessonView: View {
                     Button("Add", action: viewModel.addTopic)
                         .buttonStyle(.borderedProminent)
                 }
-                ForEach(Array(viewModel.topics.enumerated()), id: \.offset) { index, topic in
-                    Text("\(index + 1). \(topic)")
+                ForEach(viewModel.numberedTopics) { topic in
+                    Text("\(topic.number). \(topic.title)")
                 }
                 CodeBlock(code: "var topics = [\"Variables\", \"Functions\"]")
             }
 
             Section("Set · unique values") {
-                ForEach(viewModel.topics, id: \.self) { topic in
+                ForEach(viewModel.topicCompletions) { topic in
                     Button {
-                        viewModel.toggleCompleted(topic)
+                        viewModel.toggleCompleted(topic.title)
                     } label: {
-                        Label(topic, systemImage: viewModel.completedTopics.contains(topic) ? "checkmark.circle.fill" : "circle")
+                        Label(topic.title, systemImage: topic.symbol)
                     }
                     .buttonStyle(.plain)
                 }
-                Text("\(viewModel.completedTopics.count) unique completed topic(s)")
+                Text(viewModel.completedSummary)
                     .font(.caption)
                     .foregroundStyle(.secondary)
                 CodeBlock(code: "var completed: Set<String> = [\"Variables\"]")
             }
 
             Section("Dictionary · key and value pairs") {
-                ForEach(viewModel.lessonScores.keys.sorted(), id: \.self) { topic in
+                ForEach(viewModel.sortedScores) { item in
                     HStack {
-                        Text(topic)
+                        Text(item.topic)
                         Spacer()
-                        Text("\(viewModel.lessonScores[topic, default: 0])%").bold()
+                        Text("\(item.score)%").bold()
                     }
                 }
                 CodeBlock(code: "let scores = [\"Variables\": 90, \"Functions\": 80]")

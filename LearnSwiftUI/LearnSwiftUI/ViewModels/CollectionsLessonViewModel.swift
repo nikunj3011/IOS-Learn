@@ -8,6 +8,30 @@ final class CollectionsLessonViewModel: ObservableObject {
 
     let lessonScores = ["Variables": 90, "Functions": 80, "Optionals": 75]
 
+    var numberedTopics: [NumberedTopic] {
+        var result: [NumberedTopic] = []
+        for (index, topic) in topics.enumerated() {
+            result.append(NumberedTopic(number: index + 1, title: topic))
+        }
+        return result
+    }
+
+    var topicCompletions: [TopicCompletion] {
+        topics.map { topic in
+            TopicCompletion(title: topic, isCompleted: completedTopics.contains(topic))
+        }
+    }
+
+    var sortedScores: [ScoreDisplay] {
+        lessonScores
+            .map { ScoreDisplay(topic: $0.key, score: $0.value) }
+            .sorted { $0.topic < $1.topic }
+    }
+
+    var completedSummary: String {
+        "\(completedTopics.count) unique completed topic(s)"
+    }
+
     func addTopic() {
         let trimmedTopic = newTopic.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmedTopic.isEmpty else { return }

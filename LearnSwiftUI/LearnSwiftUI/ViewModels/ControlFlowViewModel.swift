@@ -9,7 +9,16 @@ final class ControlFlowViewModel: ObservableObject {
 
     var scoreMessage: String { Self.scoreMessage(for: score) }
     var didPass: Bool { score >= 70 }
+    var scoreSymbol: String { didPass ? "checkmark.circle.fill" : "arrow.up.circle.fill" }
     var selectedPlan: String { Self.plan(for: selectedDay) }
+
+    var numberedTopics: [NumberedTopic] {
+        var result: [NumberedTopic] = []
+        for (index, topic) in topics.enumerated() {
+            result.append(NumberedTopic(number: index + 1, title: topic))
+        }
+        return result
+    }
 
     static func scoreMessage(for score: Int) -> String {
         if score >= 70 { "Great job — you passed!" }
@@ -25,10 +34,12 @@ final class ControlFlowViewModel: ObservableObject {
     }
 
     static let switchExample = """
-    switch selectedDay {
-    case .monday: Text("Learn a new concept")
-    case .wednesday: Text("Build a tiny project")
-    case .friday: Text("Review and take a quiz")
+    func plan(for day: StudyDay) -> String {
+        switch day {
+        case .monday: "Learn a new concept"
+        case .wednesday: "Build a tiny project"
+        case .friday: "Review and take a quiz"
+        }
     }
     """
 }

@@ -17,6 +17,10 @@ final class OptionalsLessonViewModel: ObservableObject {
         }
     }
 
+    var hasNickname: Bool { nickname != nil }
+    var statusSymbol: String { hasNickname ? "checkmark.circle.fill" : "questionmark.circle" }
+    var guardMessage: String { Self.guardLetMessage(for: nickname) }
+
     static func guardLetMessage(for name: String?) -> String {
         guard let name, !name.isEmpty else {
             return "Please enter a nickname first."
