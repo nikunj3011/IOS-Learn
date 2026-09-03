@@ -65,12 +65,8 @@ struct ContentView: View {
                         ConcurrencyLessonView()
                     }
 
-                    LessonCard(number: 14, title: "Declarative SwiftUI", subtitle: "Describe the interface as a function of state.", symbol: "swift", color: .red) {
-                        DeclarativeUILessonView()
-                    }
-
-                    LessonCard(number: 15, title: "View composition", subtitle: "Build screens from small reusable views.", symbol: "rectangle.3.group.fill", color: .indigo) {
-                        ViewCompositionLessonView()
+                    LessonCard(number: 14, title: "SwiftUI UI toolkit", subtitle: "Combine declarative UI, composition, layout, lists, forms, navigation, tabs, and presentations.", symbol: "swift", color: .red) {
+                        SwiftUIToolkitLessonView()
                     }
                 }
                 .padding()
