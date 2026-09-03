@@ -30,6 +30,7 @@ struct SemanticsLessonView: View {
             } footer: {
                 Text("Structs copy their values. Classes share an identity and are passed by reference.")
             }
+            LessonDetailSection(details: LessonDetailsCatalog.semantics)
         }
         .navigationTitle("Structs & Classes")
         .navigationBarTitleDisplayMode(.inline)

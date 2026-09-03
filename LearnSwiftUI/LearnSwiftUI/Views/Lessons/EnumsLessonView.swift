@@ -38,6 +38,7 @@ struct EnumsLessonView: View {
                 }
                 """)
             }
+            LessonDetailSection(details: LessonDetailsCatalog.enums)
         }
         .navigationTitle("Enums")
         .navigationBarTitleDisplayMode(.inline)

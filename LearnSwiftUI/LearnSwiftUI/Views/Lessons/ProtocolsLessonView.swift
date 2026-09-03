@@ -33,6 +33,7 @@ struct ProtocolsLessonView: View {
             Section("Remember") {
                 Text("A protocol defines requirements. Any conforming type promises to provide them, so callers can work with the contract instead of a concrete type.")
             }
+            LessonDetailSection(details: LessonDetailsCatalog.protocols)
         }
         .navigationTitle("Protocols")
         .navigationBarTitleDisplayMode(.inline)

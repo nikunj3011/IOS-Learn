@@ -46,6 +46,7 @@ struct ControlFlowLessonView: View {
                 }
                 """)
             }
+            LessonDetailSection(details: LessonDetailsCatalog.controlFlow)
         }
         .navigationTitle("Control Flow")
         .navigationBarTitleDisplayMode(.inline)

@@ -27,6 +27,7 @@ struct GenericsLessonView: View {
             Section("Remember") {
                 Text("T is a placeholder for a type. Swift selects the real type at the call site while preserving type safety.")
             }
+            LessonDetailSection(details: LessonDetailsCatalog.generics)
         }
         .navigationTitle("Generics")
         .navigationBarTitleDisplayMode(.inline)

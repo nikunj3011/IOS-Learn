@@ -43,6 +43,7 @@ struct FunctionsLessonView: View {
                 Label("The return value is the function's output.", systemImage: "arrow.left.to.line")
                 Label("A closure is a function stored as a value.", systemImage: "curlybraces")
             }
+            LessonDetailSection(details: LessonDetailsCatalog.functions)
         }
         .navigationTitle("Functions")
         .navigationBarTitleDisplayMode(.inline)

@@ -42,6 +42,7 @@ struct CollectionsLessonView: View {
                 }
                 CodeBlock(code: "let scores = [\"Variables\": 90, \"Functions\": 80]")
             }
+            LessonDetailSection(details: LessonDetailsCatalog.collections)
         }
         .navigationTitle("Collections")
         .navigationBarTitleDisplayMode(.inline)

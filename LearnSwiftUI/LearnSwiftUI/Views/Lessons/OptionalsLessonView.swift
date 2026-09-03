@@ -40,6 +40,7 @@ struct OptionalsLessonView: View {
                 Label("Forced unwrapping can crash when the value is nil. Prefer if let or guard let.", systemImage: "exclamationmark.triangle.fill")
                     .foregroundStyle(.red)
             }
+            LessonDetailSection(details: LessonDetailsCatalog.optionals)
         }
         .navigationTitle("Optionals")
         .navigationBarTitleDisplayMode(.inline)

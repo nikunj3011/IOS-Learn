@@ -52,6 +52,26 @@ struct ContentView: View {
                     LessonCard(number: 10, title: "Error handling", subtitle: "Represent and recover from failures using throws and Result.", symbol: "exclamationmark.triangle.fill", color: .red) {
                         ErrorHandlingLessonView()
                     }
+
+                    LessonCard(number: 11, title: "Closures", subtitle: "Understand captures and work that escapes to run later.", symbol: "curlybraces.square.fill", color: .purple) {
+                        ClosuresAdvancedLessonView()
+                    }
+
+                    LessonCard(number: 12, title: "ARC", subtitle: "Manage class lifetimes with strong and weak ownership.", symbol: "link.circle.fill", color: .orange) {
+                        ARCLessonView()
+                    }
+
+                    LessonCard(number: 13, title: "Concurrency", subtitle: "Run suspendable work using async, await, and Task.", symbol: "bolt.horizontal.circle.fill", color: .blue) {
+                        ConcurrencyLessonView()
+                    }
+
+                    LessonCard(number: 14, title: "Declarative SwiftUI", subtitle: "Describe the interface as a function of state.", symbol: "swift", color: .red) {
+                        DeclarativeUILessonView()
+                    }
+
+                    LessonCard(number: 15, title: "View composition", subtitle: "Build screens from small reusable views.", symbol: "rectangle.3.group.fill", color: .indigo) {
+                        ViewCompositionLessonView()
+                    }
                 }
                 .padding()
             }

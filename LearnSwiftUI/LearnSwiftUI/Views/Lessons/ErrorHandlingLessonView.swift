@@ -36,6 +36,7 @@ struct ErrorHandlingLessonView: View {
                 """)
                 Text("Result stores either .success(Value) or .failure(Error), which is useful when the outcome must be passed or saved.")
             }
+            LessonDetailSection(details: LessonDetailsCatalog.errors)
         }
         .navigationTitle("Error Handling")
         .navigationBarTitleDisplayMode(.inline)

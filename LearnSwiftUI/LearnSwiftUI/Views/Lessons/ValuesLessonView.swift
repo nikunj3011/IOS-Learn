@@ -23,6 +23,7 @@ struct ValuesLessonView: View {
                 Label("Use var when a value needs to change.", systemImage: "pencil")
                 Label("Swift often infers the type from the value.", systemImage: "sparkles")
             }
+            LessonDetailSection(details: LessonDetailsCatalog.values)
         }
         .navigationTitle("Values & Types")
         .navigationBarTitleDisplayMode(.inline)
