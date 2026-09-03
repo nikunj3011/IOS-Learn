@@ -71,4 +71,23 @@ struct LearnSwiftUITests {
             try ErrorHandlingLessonViewModel.validate("A")
         }
     }
+
+    @Test func observableCounterUsesConfiguredStep() {
+        let counter = ObservationCounter()
+        counter.step = 3
+        counter.increment()
+        #expect(counter.count == 3)
+    }
+
+    @Test func injectedServiceCanBeReplaced() {
+        let viewModel = DependencyInjectionViewModel(greetingProvider: TestGreetingService())
+        viewModel.name = "Sam"
+        #expect(viewModel.greeting == "Test greeting for Sam")
+    }
+
+    @Test func repositoryHidesItsDataSource() async throws {
+        let repository: any CourseRepository = InMemoryCourseRepository()
+        let courses = try await repository.fetchCourses()
+        #expect(courses.map(\.title) == ["Swift", "SwiftUI"])
+    }
 }
