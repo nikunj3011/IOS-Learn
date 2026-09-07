@@ -39,6 +39,30 @@ struct SwiftBasicsHomeView: View {
                     LessonCard(number: 30, title: "Feature architecture", subtitle: "Organize code around product features.", symbol: "square.grid.2x2.fill", color: .indigo) { FeatureArchitectureLessonView() }
                     LessonCard(number: 31, title: "Dependency injection", subtitle: "Supply dependencies instead of constructing them internally.", symbol: "arrow.down.to.line.compact", color: .purple) { DependencyInjectionLessonView() }
                     LessonCard(number: 32, title: "Repository", subtitle: "Hide data sources behind a stable abstraction.", symbol: "externaldrive.fill", color: .teal) { RepositoryLessonView() }
+
+                    categoryHeader("Networking", subtitle: "Connect typed Swift models to remote HTTP and real-time services.")
+                    LessonCard(number: 33, title: "Networking essentials", subtitle: "Combine URLSession, Codable, REST, file transfers, and WebSockets.", symbol: "network", color: .blue) { NetworkingLessonView() }
+
+                    categoryHeader("Database", subtitle: "Persist structured app data using Apple frameworks or direct SQL.")
+                    LessonCard(number: 38, title: "SwiftData", subtitle: "Modern Apple persistence with models and queries.", symbol: "cylinder.split.1x2.fill", color: .blue) { SwiftDataLessonView() }
+                    LessonCard(number: 39, title: "Core Data", subtitle: "Managed object persistence for existing and advanced apps.", symbol: "square.stack.3d.up.fill", color: .orange) { CoreDataLessonView() }
+                    LessonCard(number: 40, title: "SQLite", subtitle: "Understand tables, rows, SQL, and direct local databases.", symbol: "cylinder.fill", color: .purple) { SQLiteLessonView() }
+
+                    categoryHeader("Storage", subtitle: "Choose storage based on whether data is a preference, secret, or file.")
+                    LessonCard(number: 41, title: "UserDefaults", subtitle: "Persist small preferences and settings.", symbol: "switch.2", color: .blue) { UserDefaultsLessonView() }
+                    LessonCard(number: 42, title: "Keychain", subtitle: "Protect tokens, passwords, and other secrets.", symbol: "key.fill", color: .yellow) { KeychainLessonView() }
+                    LessonCard(number: 43, title: "FileManager", subtitle: "Read and write files in app-owned directories.", symbol: "folder.fill", color: .teal) { FileManagerLessonView() }
+
+                    categoryHeader("Images, Video & Audio", subtitle: "Load, capture, play, record, and process media with Apple frameworks.")
+                    LessonCard(number: 44, title: "AsyncImage", subtitle: "Load and display a remote image with phases.", symbol: "photo", color: .blue) { AsyncImageLessonView() }
+                    LessonCard(number: 45, title: "Image pipeline", subtitle: "Download, decode, and cache images.", symbol: "photo.stack.fill", color: .indigo) { ImagePipelineLessonView() }
+                    LessonCard(number: 46, title: "Photos", subtitle: "Select images from the photo library safely.", symbol: "photo.on.rectangle.angled", color: .pink) { PhotosLessonView() }
+                    LessonCard(number: 47, title: "Camera", subtitle: "Control authorization and capture sessions.", symbol: "camera.fill", color: .orange) { CameraLessonView() }
+                    LessonCard(number: 48, title: "Video playback", subtitle: "Play and control video with AVPlayer.", symbol: "play.rectangle.fill", color: .blue) { VideoPlayerLessonView() }
+                    LessonCard(number: 49, title: "Video recording", subtitle: "Build an AVFoundation recording pipeline.", symbol: "video.fill", color: .red) { VideoRecordingLessonView() }
+                    LessonCard(number: 50, title: "Audio playback", subtitle: "Play local audio using AVAudioPlayer.", symbol: "speaker.wave.2.fill", color: .purple) { AudioPlayerLessonView() }
+                    LessonCard(number: 51, title: "Audio recording", subtitle: "Capture microphone audio using AVAudioRecorder.", symbol: "mic.fill", color: .red) { AudioRecorderLessonView() }
+                    LessonCard(number: 52, title: "Audio engine", subtitle: "Inspect and process live audio buffers.", symbol: "waveform", color: .teal) { AudioEngineLessonView() }
                 }
                 .padding()
             }

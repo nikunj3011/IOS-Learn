@@ -400,6 +400,9 @@
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Learn camera capture with an interactive AVFoundation lesson.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Learn audio and video recording with interactive AVFoundation lessons.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose a photo for the Photos framework lesson.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -432,6 +435,9 @@
 				DEVELOPMENT_TEAM = 3Z4CU5KRK7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Learn camera capture with an interactive AVFoundation lesson.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Learn audio and video recording with interactive AVFoundation lessons.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose a photo for the Photos framework lesson.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

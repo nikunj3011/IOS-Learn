@@ -21,7 +21,7 @@ struct SettingsView: View {
                 }
 
                 Section("About") {
-                    LabeledContent("Learning path", value: "22 lessons")
+                    LabeledContent("Learning path", value: "38 lessons")
                     LabeledContent("Architecture", value: "MVVM")
                 }
             }

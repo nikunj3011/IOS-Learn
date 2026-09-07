@@ -5,6 +5,7 @@
 //  Created by Nikunj Rathod on 2026-08-31.
 //
 
+import Foundation
 import Testing
 @testable import LearnSwiftUI
 
@@ -89,5 +90,12 @@ struct LearnSwiftUITests {
         let repository: any CourseRepository = InMemoryCourseRepository()
         let courses = try await repository.fetchCourses()
         #expect(courses.map(\.title) == ["Swift", "SwiftUI"])
+    }
+
+    @Test func codableDecodesNetworkJSON() throws {
+        let json = #"{"userId":1,"id":7,"title":"Learn networking","completed":false}"#.data(using: .utf8)!
+        let todo = try JSONDecoder().decode(NetworkTodo.self, from: json)
+        #expect(todo.id == 7)
+        #expect(todo.title == "Learn networking")
     }
 }
