@@ -63,6 +63,23 @@ struct SwiftBasicsHomeView: View {
                     LessonCard(number: 50, title: "Audio playback", subtitle: "Play local audio using AVAudioPlayer.", symbol: "speaker.wave.2.fill", color: .purple) { AudioPlayerLessonView() }
                     LessonCard(number: 51, title: "Audio recording", subtitle: "Capture microphone audio using AVAudioRecorder.", symbol: "mic.fill", color: .red) { AudioRecorderLessonView() }
                     LessonCard(number: 52, title: "Audio engine", subtitle: "Inspect and process live audio buffers.", symbol: "waveform", color: .teal) { AudioEngineLessonView() }
+
+                    categoryHeader("Security & Authentication", subtitle: "Protect credentials, encrypt data, and implement trusted sign-in flows.")
+                    LessonCard(number: 53, title: "Keychain credentials", subtitle: "Store authentication credentials securely.", symbol: "key.viewfinder", color: .yellow) { SecurityKeychainLessonView() }
+                    LessonCard(number: 54, title: "CryptoKit", subtitle: "Hash and encrypt data with modern cryptography.", symbol: "lock.shield.fill", color: .purple) { CryptoKitLessonView() }
+                    LessonCard(number: 55, title: "OAuth & OpenID Connect", subtitle: "Understand authorization, PKCE, tokens, and SSO.", symbol: "person.badge.key.fill", color: .blue) { OAuthLessonView() }
+                    LessonCard(number: 56, title: "Sign in with Apple", subtitle: "Authenticate using Apple's privacy-focused identity service.", symbol: "apple.logo", color: .primary) { SignInWithAppleLessonView() }
+
+                    categoryHeader("System Integrations", subtitle: "Connect your app to notifications, hardware, location, health, and system surfaces.")
+                    LessonCard(number: 57, title: "Notifications", subtitle: "Request permission and schedule local notifications.", symbol: "bell.badge.fill", color: .red) { NotificationsLessonView() }
+                    LessonCard(number: 58, title: "Deep links", subtitle: "Parse URLs and navigate to app content.", symbol: "link.badge.plus", color: .blue) { DeepLinksLessonView() }
+                    LessonCard(number: 59, title: "Background tasks", subtitle: "Schedule and manage bounded background work.", symbol: "clock.arrow.trianglehead.counterclockwise.rotate.90", color: .indigo) { BackgroundTasksLessonView() }
+                    LessonCard(number: 60, title: "Location", subtitle: "Request authorization and receive Core Location updates.", symbol: "location.fill", color: .blue) { LocationLessonView() }
+                    LessonCard(number: 61, title: "Maps", subtitle: "Display places and camera positions with MapKit.", symbol: "map.fill", color: .green) { MapsLessonView() }
+                    LessonCard(number: 62, title: "Bluetooth", subtitle: "Discover nearby devices using CoreBluetooth.", symbol: "antenna.radiowaves.left.and.right", color: .blue) { BluetoothLessonView() }
+                    LessonCard(number: 63, title: "HealthKit", subtitle: "Understand health authorization and queries.", symbol: "heart.text.square.fill", color: .pink) { HealthKitLessonView() }
+                    LessonCard(number: 64, title: "Widgets", subtitle: "Build timeline-driven WidgetKit extensions.", symbol: "square.grid.2x2.fill", color: .cyan) { WidgetsLessonView() }
+                    LessonCard(number: 65, title: "Live Activities", subtitle: "Show continuously updated activities with ActivityKit.", symbol: "livephoto", color: .orange) { LiveActivitiesLessonView() }
                 }
                 .padding()
             }
