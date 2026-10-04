@@ -80,6 +80,15 @@ struct SwiftBasicsHomeView: View {
                     LessonCard(number: 63, title: "HealthKit", subtitle: "Understand health authorization and queries.", symbol: "heart.text.square.fill", color: .pink) { HealthKitLessonView() }
                     LessonCard(number: 64, title: "Widgets", subtitle: "Build timeline-driven WidgetKit extensions.", symbol: "square.grid.2x2.fill", color: .cyan) { WidgetsLessonView() }
                     LessonCard(number: 65, title: "Live Activities", subtitle: "Show continuously updated activities with ActivityKit.", symbol: "livephoto", color: .orange) { LiveActivitiesLessonView() }
+
+                    categoryHeader("UX & Testing", subtitle: "Create polished, inclusive experiences and verify behavior with automated tests.")
+                    LessonCard(number: 66, title: "Animation", subtitle: "Animate state changes with SwiftUI transitions and timing curves.", symbol: "wand.and.stars", color: .purple) { AnimationLessonView() }
+                    LessonCard(number: 67, title: "Gestures", subtitle: "Respond to taps, drags, magnification, and composed gestures.", symbol: "hand.draw.fill", color: .orange) { GesturesLessonView() }
+                    LessonCard(number: 68, title: "Accessibility", subtitle: "Support VoiceOver, Dynamic Type, and accessible interaction.", symbol: "accessibility", color: .blue) { AccessibilityLessonView() }
+                    LessonCard(number: 69, title: "Localization", subtitle: "Prepare text and layouts for multiple languages and regions.", symbol: "globe", color: .green) { LocalizationLessonView() }
+                    LessonCard(number: 70, title: "Unit tests", subtitle: "Verify isolated logic with fast, deterministic tests.", symbol: "checkmark.seal.fill", color: .teal) { UnitTestsLessonView() }
+                    LessonCard(number: 71, title: "UI tests", subtitle: "Automate important user flows through the accessibility tree.", symbol: "rectangle.and.hand.point.up.left.fill", color: .indigo) { UITestsLessonView() }
+                    LessonCard(number: 72, title: "Swift Testing", subtitle: "Use modern @Test, #expect, traits, and parameterized tests.", symbol: "testtube.2", color: .pink) { SwiftTestingLessonView() }
                 }
                 .padding()
             }
