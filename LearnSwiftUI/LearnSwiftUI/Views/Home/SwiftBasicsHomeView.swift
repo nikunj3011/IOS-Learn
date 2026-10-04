@@ -89,6 +89,20 @@ struct SwiftBasicsHomeView: View {
                     LessonCard(number: 70, title: "Unit tests", subtitle: "Verify isolated logic with fast, deterministic tests.", symbol: "checkmark.seal.fill", color: .teal) { UnitTestsLessonView() }
                     LessonCard(number: 71, title: "UI tests", subtitle: "Automate important user flows through the accessibility tree.", symbol: "rectangle.and.hand.point.up.left.fill", color: .indigo) { UITestsLessonView() }
                     LessonCard(number: 72, title: "Swift Testing", subtitle: "Use modern @Test, #expect, traits, and parameterized tests.", symbol: "testtube.2", color: .pink) { SwiftTestingLessonView() }
+
+                    categoryHeader("Performance & Quality", subtitle: "Measure real bottlenecks, control resource use, and diagnose production behavior.")
+                    LessonCard(number: 73, title: "Instruments", subtitle: "Profile CPU, memory, networking, hangs, and energy use.", symbol: "gauge.with.dots.needle.67percent", color: .red) { InstrumentsLessonView() }
+                    LessonCard(number: 74, title: "Lazy rendering", subtitle: "Render large lists and grids only as their content becomes visible.", symbol: "rectangle.grid.1x2.fill", color: .blue) { LazyRenderingLessonView() }
+                    LessonCard(number: 75, title: "Memory", subtitle: "Find ARC cycles, leaks, oversized images, and retained resources.", symbol: "memorychip.fill", color: .purple) { MemoryPerformanceLessonView() }
+                    LessonCard(number: 76, title: "Logging", subtitle: "Record structured, privacy-aware diagnostics with OSLog.", symbol: "text.alignleft", color: .teal) { LoggingLessonView() }
+                    LessonCard(number: 77, title: "Crash reporting", subtitle: "Capture, symbolicate, and triage production failures.", symbol: "exclamationmark.bubble.fill", color: .orange) { CrashReportingLessonView() }
+
+                    categoryHeader("Build & Release", subtitle: "Configure reproducible builds and move tested versions safely to customers.")
+                    LessonCard(number: 78, title: "Xcode builds", subtitle: "Use targets, schemes, configurations, and build settings correctly.", symbol: "hammer.fill", color: .blue) { XcodeBuildLessonView() }
+                    LessonCard(number: 79, title: "Swift Package Manager", subtitle: "Organize modules and manage dependency versions.", symbol: "shippingbox.fill", color: .brown) { SPMLessonView() }
+                    LessonCard(number: 80, title: "Signing", subtitle: "Connect certificates, identifiers, entitlements, and profiles.", symbol: "signature", color: .indigo) { SigningLessonView() }
+                    LessonCard(number: 81, title: "TestFlight", subtitle: "Distribute beta builds to internal and external testers.", symbol: "paperplane.fill", color: .cyan) { TestFlightLessonView() }
+                    LessonCard(number: 82, title: "App Store release", subtitle: "Prepare, submit, review, and safely release production builds.", symbol: "storefront.fill", color: .green) { AppStoreReleaseLessonView() }
                 }
                 .padding()
             }
